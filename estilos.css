@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    margin: 10px auto;
+    background: linear-gradient(to right, #f75127, #d3af94);
+}
+
+.contador{
+    margin:0 170px;
+    padding-bottom: 100px;
+}
+
+.titulo{
+    font-size: 85px;
+    margin-bottom: 20px;
+    background-color: #ffcc00;
+    padding: 10px;
+    color: red
+}
+
+.text{
+    font-size: 85px;
+    margin-bottom: 10px;
+}
+
+
+.nombre {
+    font-size: 40px;
+    background-color: #2e0fdd; /* Color de fondo diferente */
+    color: white; /* Color del texto */
+    padding: 5px; /* Espaciado interno */
+    margin-top: 20px;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
